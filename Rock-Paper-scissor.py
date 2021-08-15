@@ -16,7 +16,7 @@ while True:                                # run the loop until the player gives
     com=randint(0,2)                       # generate a random int from 0 to 2 which acts as a index and that index gives our bot it's pick from the sample space
     print('Computer:',t[com])
     
-    # Bunch of if statements to determine the winner
+    # Bunch of if-else statements to determine the winner
     if user==t[com]:
         print('Tie!!!!!')
     elif user==t[0]:
